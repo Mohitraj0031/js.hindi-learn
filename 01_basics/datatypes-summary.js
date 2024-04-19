@@ -33,3 +33,29 @@ console.log(typeof isLoggedIn);
 //Array => object
 //object => object
 //function => object function
+
+// *******************************************************************
+
+// Stack (primitive), Heap (non-primitive)
+// Stack => copy of data
+// Heap => reference 0f data
+
+let myYoutubename = "Mohitrajdotcom"
+
+let anothername = myYoutubename
+anothername = "do_or_die"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne ={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "mohitraj@google.com"
+
+
+console.log(userOne.email);
+console.log(userTwo.email);
