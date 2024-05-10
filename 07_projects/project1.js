@@ -19,6 +19,17 @@ buttons.forEach(function (button) {
     if (e.target.id === 'yellow') {
       body.style.backgroundColor = e.target.id;
     }
+
+    // switch (e.target.id) {
+    //     case 'grey':
+    //     case 'white':
+    //     case 'blue':
+    //     case 'green':
+    //     case 'yellow':
+    //       body.style.backgroundColor = e.target.id;
+    //       break;
+    //       defult: break;
+    //   }
     
   });
 });
